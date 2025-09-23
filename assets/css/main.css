@@ -40,6 +40,24 @@
     scroll-behavior: smooth;
 }
 
+.header-social-links {
+    display: flex;
+}
+/*on hover make it text come out of image transition */
+.header-social-links a {
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header-social-links a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .resume-text {
+        display: none;
+    }
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
