@@ -893,3 +893,20 @@ html, body {
 .portfolio-info h1{
     font-size: 70px;
 }
+
+.portfolio-filters {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    gap: 20px;              /* spacing between items */
+    padding: 0;
+    margin: 0 auto;         /* make sure it sits in center */
+    list-style: none;
+}
+
+.portfolio-filters li,
+.portfolio-filters a {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
